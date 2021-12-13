@@ -1,0 +1,35 @@
+.group-search {
+    height: 600px !important;
+    background-image: url('https://baoquocte.vn/stores/news_dataimages/quangchinh/042017/08/09/091742_Vi_sao_nhiYu_ngYYi_MY_Yang_rYi_bY_cac_thanh_phY_lYn.jpg');
+    background-repeat: no-repeat !important;
+    background-size: 100%;
+    ;
+}
+
+.search {
+    margin: 0 100px 0 100px;
+    padding-top: 300px;
+}
+
+h3 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.mb {
+    display: block;
+    padding: 20px;
+    background-color: rgba(107, 107, 107, 58%)
+}
+
+.btn-search:focus,
+.btn-search:hover,
+.btn-search {
+    background-color: #FF5C00;
+    border: 0;
+}
+
+span {
+    color: #fff;
+    white-space: nowrap;
+}
