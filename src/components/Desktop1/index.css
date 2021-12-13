@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.main {
+
+  margin: 0 auto;
+  /* snap begins */
+  width: 50%;
+  height: 30%;
+  scroll-snap-align: start;
+  /* snap ends */
+  }
+.container {
+  background-color: white;
+}
