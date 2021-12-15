@@ -1,11 +1,11 @@
 
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import './App.css';
-import Desktop3 from './Componant/Desktop3';
-import Desktop7 from './Componant/Desktop7';
-import Desktop1 from './Componant/Desktop1/Desktop1'
-import HomePages from './Componant/home_Pages/home_Pages';
-import Login from './Componant/login/login';
+import Desktop3 from './components/Desktop3';
+import Desktop7 from './components/Desktop7';
+import Desktop1 from './components/Desktop1/Desktop1'
+import HomePages from './components/home_Pages/home_Pages';
+import Login from './components/login/login';
 
 function App() {
   return (

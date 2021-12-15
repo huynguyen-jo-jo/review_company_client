@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import people from './data';
 import Review from './Review';
 import Grid  from '@material-ui/core/Grid';
+
 function Desktop1() {
 const [index] = useState(0);
 const { cmt } = people[index];
