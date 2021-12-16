@@ -1,7 +1,9 @@
 
 import { Container, Row, Col, Card, Pagination  } from 'react-bootstrap';
-
+import { useState } from 'react'
 function Desktop3() {
+  const [index, setIndex] = useState([1,2,3,4,5,6,7]);
+
     return (
         <div style ={{width: '80%', margin: 'auto'}}>
           <Container fluid="sm">
@@ -44,21 +46,19 @@ function Desktop3() {
           </Row>    
           </Container>
           <Pagination style={{marginTop: '50px', position: 'relative', left: '30%'}} >
-            <Pagination.First />
-            <Pagination.Prev />
-            <Pagination.Item>{1}</Pagination.Item>
-            <Pagination.Ellipsis />
+            <Pagination.Item>{'<<'}</Pagination.Item>
+            <Pagination.Item>{'<'}</Pagination.Item>
+            <Pagination.Item>{index[0]}</Pagination.Item>
 
-            <Pagination.Item>{10}</Pagination.Item>
-            <Pagination.Item>{11}</Pagination.Item>
-            <Pagination.Item active>{12}</Pagination.Item>
-            <Pagination.Item>{13}</Pagination.Item>
-            <Pagination.Item disabled>{14}</Pagination.Item>
+            <Pagination.Item>{index[1]}</Pagination.Item>
+            <Pagination.Item>{index[2]}</Pagination.Item>
+            <Pagination.Item active>{index[3]}</Pagination.Item>
+            <Pagination.Item>{index[4]}</Pagination.Item>
+            <Pagination.Item >{index[5]}</Pagination.Item>
 
-            <Pagination.Ellipsis />
-            <Pagination.Item>{20}</Pagination.Item>
-            <Pagination.Next />
-            <Pagination.Last />
+            <Pagination.Item>{index[6]}</Pagination.Item>
+            <Pagination.Item>{'>'}</Pagination.Item>
+            <Pagination.Item>{'>>'}</Pagination.Item>
           </Pagination>
         </div>
     )
